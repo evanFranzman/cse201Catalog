@@ -47,7 +47,7 @@ public class Game {
 
 	// constructor of game allowing for input in its name, release data, publisher,
 	// and current version
-	public Game(String name, Date releaseDate, String Publisher, String currentVersion) {
+	public Game(String name, Date releaseDate, String publisher, String currentVersion) {
 
 	}
 
