@@ -1,0 +1,83 @@
+<!Code based off w3 Schools 
+Title: Responsive Website Layout
+Author: W3Schools 
+Date: 2020
+Code Version: 1.0
+Availabilty: https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_blog
+-->
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 10px;
+  background: #393e41;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+  background: #7B868C;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header p {
+  font-style: italic;
+}
+
+.card{
+  background-color: #7B868C;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #256EFF;
+  color: black;
+}
+
+ul {
+  list-style-image: url('https://at-cdn-s01.audiotool.com/2014/05/03/documents/NVvFtqKblBCxCJRsDwfDG9L6eb9/0/cover256x256-9a3514db6df04c81a0a44c4108876723.jpg');
+  list-style-position: inside;
+}
+
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: right;
+  background: #333;
+  color: #f2f2f2;
+}
+
+
+
+
