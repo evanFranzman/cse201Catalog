@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf8">
+		<link rel="stylesheet" href="/css/static.css" type="text/css"/>
+		<link rel="stylesheet" href="/css/index_.css" type="text/css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<title>LexieVanSelow</title>
+	</head>
+	<body>
+		<header>
+		<div id="user">
+		</div>
+		</header>
+		<div id="user_flyout">
+			<div class="top">
+				<div id="icon" class="fa fa-user fa-4x"></div>
+				</div>
+				<ul>
+					<li class="signed"><a href="http://localhost/LVS/php/login.php"><span class="fa fa-key"></span> Login</span></a></li>
+					<li><a href="\"><span class="fa fa-user-circle"></span>My Page</a></li>
+					<li><a href=\"/settings\"><span class=\"fa fa-cog\"></span>Settings</a></li>
+					<li><a href=\"http://localhost/LVS/php/user.php\"><span class=\"fa fa-exclamation\"> Admin Page</span></a></li>
+					<li><a href="http://localhost/LVS/php/logout.php"><span class="fa fa-sign-out"> Logout</span></a></li>
+				</ul>
+			</div>
+		</div>
+			<img class="logo" src="/LVS/assets/lexie_van_selow.png" width="300px" height="200px">
+			<script>
+			$("#user").click(function(e) {
+			$("#user_flyout").toggle('medium');
+		});
+	 		</script>
+			<div id="nav_bar">
+				<ul id="menu">
+					<li id="nav_home"><a href="/index.php"><strong>Home</strong></a></li>
+					<li id="nav_paintings" class="dropdown">
+					<a href="/LVS/php/img_gallery" class="dropbtn">Paintings</a>
+						<div class="dropdown-content">
+							<a href="#">Commissions</a>
+							<a href="#">Sold</a>
+							<a href="#">For Sale</a>
+						</div> 
+					</li>
+					<li id="nav_about"><a href="/LVS/php/about.php">About</a></li>
+					<li id="nav_contact"><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		<div class="divider"></div>
+			<div id="slideshow">
+			<ul class="rslides">
+				<li><img src="./uploads/Camp-Lachlan.jpg" alt=""/></li>
+ 				<li><img src="./uploads/King-Family-Vineyards.jpg" alt=""/></li>
+				<li><img src="./uploads/IMG_7542.jpg" alt=""/></li>
+				<li><img src="./uploads/IMG_6980.jpg" alt=""/></li>
+				<li><img src="./uploads/The-Greenbrier.jpg" alt=""/></li>
+			</ul>
+		</div>
+		<div id="header_divider" class="divider"></div>
+
+		<script>
+  		$(function() {
+  			$(".rslides").responsiveSlides({
+  				auto: true
+  			});
+  		});
+		</script>
+		<!--divider bar-->
+		<!--instagram html-->
+	</body>		
+	<!--footer with insta,fb,mail icon links. logo centered left of icon. Icon right centered on logo-->
+	<footer>
+		<div id="icons">
+			<a href="#"><span class="fa fa-facebook-square fa-4x"></span></a>
+			<a href="#"><span id="twitter" class="fa fa-twitter-square fa-4x"></span></a>
+			<a href="#"><span class="fa fa-envelope fa-4x"></span></a>
+			
+		</div>
+	</footer>
+</html>
+
+<!--oils, acryillics, water-colors, commissions, sold, forsale
